@@ -62,3 +62,7 @@ MIT License. Feel free to use, modify, and share.
 
 ## 〰️ May the Morse be with you!
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFF7FE&width=435&lines=..-.+.-.+.+...+....+++;+..-.+---+.-.+.+-.+...+..+-.-.+...)](https://git.io/typing-svg)
+
+
+
+<!-- echo dfresh9tutanota1com|tr 91 @.  -->
