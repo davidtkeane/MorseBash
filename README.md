@@ -6,7 +6,7 @@
 🔊 MorseBash.sh
 	</h1>
 
-**Morse Bash** is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style.
+[MorseBash.sh](https://github.com/DouglasFreshHabian/MorseBash/blob/main/morseBash.sh) is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style.
 
 ---
 
@@ -55,3 +55,4 @@ Output:
 MIT License. Feel free to use, modify, and share.
 
 ## 〰️ May the Morse be with you!
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFF7FE&width=435&lines=..-.+.-.+.+...+....+++;+..-.+---+.-.+.+-.+...+..+-.-.+...)](https://git.io/typing-svg)
