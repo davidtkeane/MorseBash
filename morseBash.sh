@@ -76,7 +76,7 @@ EOF
 
 # Check for aplay
 if ! command -v aplay &> /dev/null; then
-    echo -e "${YELLOW}aplay not found. Please install it with: apt install aplay"
+    echo -e "${YELLOW}aplay not found. Please install it with: apt install alsa-utils"
     exit 1
 fi
 
