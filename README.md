@@ -1,4 +1,10 @@
-# 🔊 Morse Bash
+<p align="center">
+  <img src="https://github.com/DouglasFreshHabian/MorseBash/blob/main/Graphics/Tux-Spy-Telegraph.png?raw=true" alt="My Image" width="400">
+</p>
+
+<h1 align="center">
+🔊 MorseBash.sh
+	</h1>
 
 **Morse Bash** is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style.
 
