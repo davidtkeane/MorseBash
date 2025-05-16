@@ -1,2 +1,51 @@
-# MorseBash
-🔊 Morse Bash – A fun and colorful Bash script that converts text into Morse code with sound and visual output. Plays dot.wav and dash.wav for each character using aplay, and includes a random-color ASCII banner for style.
+# 🔊 Morse Bash
+
+**Morse Bash** is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style.
+
+---
+
+## ✨ Features
+
+- 🔈 **Audio output**: Plays `dot.wav` and `dash.wav` using `aplay`
+- 👀 **Visual output**: Prints `.` and `-` characters for each Morse symbol
+- 🌈 **ASCII banner**: Styled with a randomly selected color on each run
+- 🔤 Supports lowercase a–z, numbers 0–9, and some punctuation
+- 📦 Minimal dependencies (just `aplay`)
+
+---
+
+## 🚀 Usage
+
+```bash
+./morse.sh your message here
+```
+> If no arguments are given, a sample message is played to demonstrate usage.
+---
+
+## 🎵 Requirements
+
+* aplay (usually provided by the alsa-utils package on Debian-based systems)
+
+* dot.wav and dash.wav in the same directory as the script
+
+To install aplay:
+```bash
+sudo apt install alsa-utils
+```
+
+## 📂 Example
+Play hello world
+```bash
+$ ./morse.sh hello world
+```
+Output:
+```bash
+.... . .-.. .-.. ---   .-- --- .-. .-.. -..
+```
+(Plus audible Morse code tones.)
+
+## 💬 [License](https://github.com/DouglasFreshHabian/MorseBash/blob/main/LICENSE)
+
+MIT License. Feel free to use, modify, and share.
+
+## 〰️ May the Morse be with you!
