@@ -81,8 +81,8 @@ if ! command -v aplay &> /dev/null; then
 fi
 
 # Wav file should be in the same directory as script:
-DOT='./dot.wav'
-DASH='./dash.wav'
+DOT='/Audio/dot.wav'
+DASH='/Audio/dash.wav'
 
 LETTERSPACE=0.3  # Seconds.
 WORDSPACE=0.98  # Seconds.
