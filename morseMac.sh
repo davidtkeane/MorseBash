@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# MorseBash Cross-Platform (macOS/Linux) Version - FAST Edition
-# Author: David Keane 🧠
+# A Simple Bash Script that turns input (lowercase letters only) into dots & dashes
+# Made orginaly by Douglas Habian @ https://github.com/DouglasFreshHabian/MorseBash
+
+# MorseBash Cross-Platform (macOS/Linux) Version 
+# Modified by David Keane @ https://github.com/DavidKeane/MorseBash
 # Modified for ~3 codes per second playback
 
 # ==== COLORS ====
@@ -32,9 +35,8 @@ fi
 SPEED_MULTIPLIER=${MORSE_SPEED:-3.0}
 
 # Base timing values optimized for ~3 codes per second
-# These are MUCH faster than before!
-BASE_LETTERSPACE=0.03    # 30ms between letters (was 0.3)
-BASE_WORDSPACE=0.15      # 150ms between words (was 0.98)
+BASE_LETTERSPACE=0.03    # 30ms between letters
+BASE_WORDSPACE=0.15      # 150ms between words
 
 # Calculate actual timing based on speed multiplier
 if command -v bc &>/dev/null; then
@@ -83,13 +85,14 @@ ascii_banner() {
          .;dxd.
 EOF
     echo -e "${RESET}"
-    
+    echo
+    echo
     # Display current speed setting
     echo -e "${CYAN}Speed: ${YELLOWB}${SPEED_MULTIPLIER}x${RESET} | Letter gap: ${LETTERSPACE}s | Word gap: ${WORDSPACE}s"
+    echo
     echo -e "${PURPLE}Target: ~3 codes/second at 1.0x speed${RESET}"
     echo ""
 }
-
 
 # ==== ASCII RANGER BANNER ====
 ascii_banner_ranger() {
