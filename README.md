@@ -12,7 +12,7 @@
 🔊 MorseBash.sh
 	</h1>
 
-[MorseBash.sh](https://github.com/DouglasFreshHabian/MorseBash/blob/main/morseBash.sh) is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style.
+[MorseBash.sh](https://github.com/DouglasFreshHabian/MorseBash/blob/main/morseBash.sh) is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style. MorseMac is now available for Macbook users with just a slight change from aplay to afplay, which also includes play, these are the only differences between the DouglasFreshHabian/MorseBash and this repo. The changes were needed for the morse code to play on Macbooks.
 
 ---
 
@@ -22,14 +22,21 @@
 - 👀 **Visual output**: Prints `.` and `-` characters for each Morse symbol
 - 🌈 **ASCII banner**: Styled with a randomly selected color on each run
 - 🔤 Supports lowercase a–z, numbers 0–9, and some punctuation
-- 📦 Minimal dependencies (just `aplay`)
+- 📦 Minimal dependencies (just `aplay` and  `bc`)
 
 ---
 
 ## 🚀 Usage
 
+For Kali Linux or another linux Dist
+
 ```bash
 ./morseBash.sh your message here
+```
+or For Macbooks
+
+```bash
+./morseMac.sh your message here
 ```
 > If no arguments are given, a sample message is played to demonstrate usage.
 ---
@@ -39,13 +46,9 @@
 If you get an error 'morseBash.sh: line 206: bc: command not found' install bc. Run your update first.
 
 For Kali Linux - Now install bc
+
 ```bash
 sudo apt install bc
-```
-
-For Macbooks - Now install bc 
-```bash
-brew install bc
 ```
 
 ## 🎵 Requirements
@@ -55,12 +58,15 @@ brew install bc
 * dot.wav and dash.wav in the same directory as the script
 
 To install aplay:
+
 ```bash
 sudo apt install alsa-utils
 ```
 
 ## 📂 Example
+
 Play hello world
+
 ```bash
 $ ./morseBash.sh hello world
 ```
