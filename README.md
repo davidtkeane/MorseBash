@@ -45,6 +45,16 @@ To install aplay:
 sudo apt install alsa-utils
 ```
 
+If you get an error 'morseBash.sh: line 206: bc: command not found' install bc. Run your update first.
+```bash
+sudo apt update
+```
+
+Now install bc
+```bash
+sudo apt install bc
+```
+
 ## 📂 Example
 Play hello world
 ```bash

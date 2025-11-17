@@ -81,8 +81,8 @@ if ! command -v aplay &> /dev/null; then
 fi
 
 # Wav file should be in the same directory as script:
-DOT='/Audio/dot.wav'
-DASH='/Audio/dash.wav'
+DOT='./dot.wav'
+DASH='./dash.wav'
 
 LETTERSPACE=0.3  # Seconds.
 WORDSPACE=0.98  # Seconds.
@@ -178,7 +178,7 @@ no_args () {
   echo ${usage[*]}
   for index in 0 1 2 3; do
     extract_letters ${usage[index]}
-    sleep $(echo "$WORDSPACE" | bc -l)  # Convert to seconds for `sleep`
+    sleep $WORDSPACE
     echo -n " "  # Print space between words.
   done
 }
