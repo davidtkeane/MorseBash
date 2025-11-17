@@ -18,9 +18,6 @@
 
 ---
 
-![AppleMac-Badge](https://img.shields.io/badge/Apple-macOS-000000?logo=apple&logoColor=white&labelColor=black)
-![Linux-Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&labelColor=white)
-
 ## ✨ Features
 
 - 🔈 **Audio output**: Plays `dot.wav` and `dash.wav` using `aplay`
@@ -33,12 +30,15 @@
 
 ## 🚀 Usage
 
-For Kali Linux or another linux Dist
+![Linux-Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&labelColor=white)
+![AppleMac-Badge](https://img.shields.io/badge/Apple-macOS-000000?logo=apple&logoColor=white&labelColor=black)
+
+For Kali Linux
 
 ```bash
 ./morseBash.sh your message here
 ```
-or For Macbooks
+For Macbooks
 
 ```bash
 ./morseMac.sh your message here
