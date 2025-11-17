@@ -34,6 +34,20 @@
 > If no arguments are given, a sample message is played to demonstrate usage.
 ---
 
+## 💬 If you get an error
+
+If you get an error 'morseBash.sh: line 206: bc: command not found' install bc. Run your update first.
+
+For Kali Linux - Now install bc
+```bash
+sudo apt install bc
+```
+
+For Macbooks - Now install bc 
+```bash
+brew install bc
+```
+
 ## 🎵 Requirements
 
 * aplay (usually provided by the alsa-utils package on Debian-based systems)
@@ -43,16 +57,6 @@
 To install aplay:
 ```bash
 sudo apt install alsa-utils
-```
-
-If you get an error 'morseBash.sh: line 206: bc: command not found' install bc. Run your update first.
-```bash
-sudo apt update
-```
-
-Now install bc
-```bash
-sudo apt install bc
 ```
 
 ## 📂 Example
