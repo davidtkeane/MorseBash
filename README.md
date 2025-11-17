@@ -29,7 +29,7 @@
 ## 🚀 Usage
 
 ```bash
-./morse.sh your message here
+./morseBash.sh your message here
 ```
 > If no arguments are given, a sample message is played to demonstrate usage.
 ---
@@ -58,7 +58,7 @@ sudo apt install bc
 ## 📂 Example
 Play hello world
 ```bash
-$ ./morse.sh hello world
+$ ./morseBash.sh hello world
 ```
 Output:
 ```bash
