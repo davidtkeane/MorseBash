@@ -81,12 +81,6 @@ Output:
 ```
 (Plus audible Morse code tones.)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/MorseBash?style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/davidtkeane/MorseBash?authorFilter=davidtkeane)
-![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/MorseBash?style=flat-square)
-![GitHub commit status](https://img.shields.io/github/checks-status/davidtkeane/MorseBash/fff3b211e20881582eeea4e035dcdd452548ed7a)
-
-
 ## 💬 [License](https://github.com/DouglasFreshHabian/MorseBash/blob/main/LICENSE)
 
 MIT License. Feel free to use, modify, and share.
@@ -94,6 +88,9 @@ MIT License. Feel free to use, modify, and share.
 ## 〰️ May the Morse be with you!
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFF7FE&width=435&lines=..-.+.-.+.+...+....+++;+..-.+---+.-.+.+-.+...+..+-.-.+...)](https://git.io/typing-svg)
 
-
+![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/MorseBash?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/davidtkeane/MorseBash?authorFilter=davidtkeane)
+![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/MorseBash?style=flat-square)
+![GitHub commit status](https://img.shields.io/github/checks-status/davidtkeane/MorseBash/fff3b211e20881582eeea4e035dcdd452548ed7a)
 
 <!-- echo dfresh9tutanota1com|tr 91 @.  -->
