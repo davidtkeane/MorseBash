@@ -12,9 +12,14 @@
 🔊 MorseBash.sh
 	</h1>
 
-[MorseBash.sh](https://github.com/DouglasFreshHabian/MorseBash/blob/main/morseBash.sh) is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style. MorseMac is now available for Macbook users with just a slight change from aplay to afplay, which also includes play, these are the only differences between the DouglasFreshHabian/MorseBash and this repo. The changes were needed for the morse code to play on Macbooks.
+[MorseBash.sh](https://github.com/DouglasFreshHabian/MorseBash/blob/main/morseBash.sh) is a fun and colorful Bash script that converts text into Morse code with both **audio playback** and **live visual output**. It plays dots and dashes using `aplay`, displays real-time `.` and `-` characters, and includes a randomly colored ASCII art banner for style. 
+
+[MorseMac.sh] MorseMac is now available for Macbook users with just a slight change from aplay to afplay, which also includes play, these are the only differences between the DouglasFreshHabian/MorseBash and this repo. The changes were needed for the morse code to play on Macbooks.
 
 ---
+
+![AppleMac-Badge](https://img.shields.io/badge/Apple-macOS-000000?logo=apple&logoColor=white&labelColor=black)
+![Linux-Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&labelColor=white)
 
 ## ✨ Features
 
@@ -75,6 +80,12 @@ Output:
 .... . .-.. .-.. ---   .-- --- .-. .-.. -..
 ```
 (Plus audible Morse code tones.)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/davidtkeane/MorseBash?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/davidtkeane/MorseBash?authorFilter=davidtkeane)
+![GitHub issues](https://img.shields.io/github/issues-raw/davidtkeane/MorseBash?style=flat-square)
+![GitHub commit status](https://img.shields.io/github/checks-status/davidtkeane/MorseBash/fff3b211e20881582eeea4e035dcdd452548ed7a)
+
 
 ## 💬 [License](https://github.com/DouglasFreshHabian/MorseBash/blob/main/LICENSE)
 
